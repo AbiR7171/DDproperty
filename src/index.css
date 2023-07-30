@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+option{
+  margin-top: 10px;
+  color: black;
+}
+
+.banneImg{
+  background-image: url(../src/assets/Image/cute-family-spring-park.jpg);
+  min-height: 60vh;
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+.journeyBg{
+  background-image: url(../src/assets/Image/2467993.jpg);
+  min-height: 75vh;
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
